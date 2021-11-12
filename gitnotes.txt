@@ -1,0 +1,89 @@
+Git notes:
+
+Git and github are different.
+git is a version control system used on remote repository platforms like github,bitbucket,gitlab.
+
+Version control system
+  - to manage code changes.(who mades the chanes, what changes)
+  - to backup code
+  - history of code changes
+  
+2 types of VCS:
+  Centralised and Distributed.
+ 
+Centralised VCS:
+    Has a single server repository.
+	Developer works on the working copy whcih is updated directly to central repo.
+Distributed VCS:
+    Each user can have a seperate repository.
+	Developer can clone main repository in local system(working copy/local repo).
+	since the developer can work on local repo , they can work offline also.
+	develper first commits the changes to local repo then pushes the changes to git repo/remote repo
+	
+Git Installation:
+ git comes with some in-built tools for users to interact with machine.command line tools.
+ gitbash, git-gui, gitk
+ 
+ gitk - graphical representation of history view.displays project history
+ 
+Terms in git:
+ branch: version of main project.
+ checkout: to switch between branches in a repository.
+ commit: to save changes of work done in local repo.
+ push: to upload the changes of local repo to remote repo.
+ pull: to fetch or merge changes on the remote server to local repo.
+ remote: 
+ stash: to switch branch without commiting the current branch code.
+ ignore
+ git revert
+ git reset
+ git origin: is the name of remote repository
+ git master:default branch of git
+ 
+ 
+
+Terminology:
+repository
+workspace
+
+
+Git is distributed vcs.
+
+
+Branch:
+
+each bug/new feature can be used as a branch.
+commands:
+   commit
+   push
+   pull
+   master
+   checkout
+   conflicts
+   reset
+   
+   
+ GVFS: for large scale enterprises git becomes slow even for cloning ,gvfs is built on top of git which is used for large scale objects and repos.
+ 
+Remote Repository:
+  Local repository is accessible to only that particular user, but remote repo can be accessed by mutiple users/developers.
+  
+  Public and private repos 
+  Private repos are not free.
+
+Creating a repo:
+ .readme 
+ .gitignore
+ licence
+
+--> .readme : description about the project.
+--> .gitignore : add the files to be ignored like .class files.
+--> add licence to ur project.
+
+
+Branch:
+
+its an independent line of development created from instance/comit of master branch.
+
+Features:
+allows fast development and code merging 
